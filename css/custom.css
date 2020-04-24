@@ -10,36 +10,36 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    min-width: 650px;
 }
 
 #side {
     background-color: #F2B90C;
     /*width: 400px;*/
-    flex-grow: 1;
-    flex-wrap: 1;
+    /*flex-grow: 1;
+    flex-wrap: 1;*/
     /*height: 700px;*/
     display: inline-block;
     /*float: left;*/
-    s
+    flex: 25%;
 }
 
 #main {
     /*background-color: yellow;*/
     /*width: 1090px;*/
-    flex-grow: 2;
-    flex-wrap: 1;
+    /*flex-grow: 2;
+    flex-wrap: 1;*/
     /*height: 700px;*/
     display: inline-block;
     /*float: left;*/
     margin-left: 10px;
     margin-right: 10px;
+    flex: 70%;
 }
 
 #profile {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 170px;
+    min-height: 170px;
     /*display: block;*/
     padding-top: 0px;
     margin-top: 0px;
@@ -49,21 +49,22 @@ body {
 #contact {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     /*display: block;*/
 }
 
 #about {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 230px;
+    min-height: 230px;
+    /*height: 230px;*/
     /*display: block;*/
 }
 
 #hobby {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     /*display: block;*/
     text-align: center;
 }
@@ -214,36 +215,11 @@ i {
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-}
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (min-width: 768px) {
-    ...
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-
-@media only screen and (min-width: 992px) {}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 1200px) {
-    ...
+@media only screen and (max-width: 700px) {
+    #side,
+    #main {
+        flex-direction: column;
+    }
 }
