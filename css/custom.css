@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    /*padding: 0;*/
+    /*display: block;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    min-width: 650px;
+}
+
+#side {
+    background-color: #F2B90C;
+    /*width: 400px;*/
+    flex-grow: 1;
+    flex-wrap: 1;
+    /*height: 700px;*/
+    display: inline-block;
+    /*float: left;*/
+    s
+}
+
+#main {
+    /*background-color: yellow;*/
+    /*width: 1090px;*/
+    flex-grow: 2;
+    flex-wrap: 1;
+    /*height: 700px;*/
+    display: inline-block;
+    /*float: left;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#profile {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 170px;
+    /*display: block;*/
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#contact {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 200px;
+    /*display: block;*/
+}
+
+#about {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 230px;
+    /*display: block;*/
+}
+
+#hobby {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 100px;
+    /*display: block;*/
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-block-end: 0px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 0px;
+    color: #404040;
+}
+
+h4 {
+    margin: 0px;
+    color: #404040;
+    padding-bottom: 5px;
+}
+
+h5 {
+    margin: 0px;
+    color: #404040;
+    padding-bottom: 5px;
+}
+
+.left {
+    color: #F2B90C;
+    background-color: #404040;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.right {
+    margin-top: auto;
+}
+
+#name {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 100px;
+    /*display: block;*/
+    padding-top: 20px;
+}
+
+font {
+    color: #F2B90C;
+}
+
+#education {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 215px;
+    /*display: block;*/
+}
+
+#experience {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 215px;
+    /*display: block;*/
+}
+
+#reference {
+    /*border-top: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    /*display: block;*/
+}
+
+p {
+    margin-left: 20px;
+    margin-top: 0;
+    text-align: justify;
+    color: #404040;
+}
+
+img {
+    border-radius: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 1.5px solid #F2B90C;
+}
+
+.date {
+    float: left;
+    width: 20%;
+    margin: 0px;
+}
+
+.school {
+    float: left;
+    width: 70%;
+}
+
+.text {
+    margin-left: 0;
+}
+
+#aboutme {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+i {
+    color: #404040;
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 4px #404040;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.fa-pencil-alt {
+    color: #F2B90C;
+    font-size: 30px;
+    display: none;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 0px;
+}
+
+.fa-briefcase {
+    color: #F2B90C;
+    font-size: 30px;
+    display: none;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 0px;
+}
+
+.fa-graduation-cap {
+    color: #F2B90C;
+    font-size: 30px;
+    display: none;
+    border: 0px;
+    box-shadow: none;
+    margin-left: 0px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    ...
+}
