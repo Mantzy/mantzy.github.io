@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    height: 1000px;
 }
 
 #side {
@@ -39,7 +40,7 @@ body {
 #profile {
     /*border-top: 1px solid black;*/
     width: 100%;
-    min-height: 170px;
+    min-height: 200px;
     /*display: block;*/
     padding-top: 0px;
     margin-top: 0px;
@@ -49,14 +50,14 @@ body {
 #contact {
     /*border-top: 1px solid black;*/
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
     /*display: block;*/
 }
 
 #about {
     /*border-top: 1px solid black;*/
     width: 100%;
-    min-height: 230px;
+    min-height: 410px;
     /*height: 230px;*/
     /*display: block;*/
 }
@@ -110,7 +111,7 @@ h5 {
 #name {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     /*display: block;*/
     padding-top: 20px;
 }
@@ -215,11 +216,34 @@ i {
 }
 
 
+/*.fa-dot-circle,
+.fa-circle {
+    color: #F2B90C;
+    font-size: 10px;
+    display: none;
+    border: 0px;
+    box-shadow: none;
+}*/
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (max-width: 700px) {
     #side,
     #main {
         flex-direction: column;
+        font-size: 12px;
+    }
+    .school,
+    .date {
+        width: auto;
+    }
+    #wrapper {
+        height: auto;
+    }
+    #profile,
+    #contact,
+    #about {
+        min-height: auto;
     }
 }
