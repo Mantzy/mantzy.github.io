@@ -123,21 +123,21 @@ font {
 #education {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 215px;
+    height: 30%;
     /*display: block;*/
 }
 
 #experience {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 215px;
+    height: 43%;
     /*display: block;*/
 }
 
 #reference {
     /*border-top: 1px solid black;*/
     width: 100%;
-    height: 150px;
+    /*height: 150px;*/
     /*display: block;*/
 }
 
