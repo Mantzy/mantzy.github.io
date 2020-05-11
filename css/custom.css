@@ -5,68 +5,50 @@ body {
 }
 
 #wrapper {
-    /*padding: 0;*/
-    /*display: block;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    /*height: 1000px;*/
 }
 
 #side {
     background-color: #F2B90C;
-    /*width: 400px;*/
     /*flex-grow: 1;
     flex-wrap: 1;*/
-    /*height: 700px;*/
     display: inline-block;
-    /*float: left;*/
     flex: 25%;
 }
 
 #main {
-    /*background-color: yellow;*/
-    /*width: 1090px;*/
     /*flex-grow: 2;
     flex-wrap: 1;*/
-    /*height: 700px;*/
     display: inline-block;
-    /*float: left;*/
     margin-left: 10px;
     margin-right: 10px;
     flex: 70%;
 }
 
 #profile {
-    /*border-top: 1px solid black;*/
     width: 100%;
     min-height: 200px;
-    /*display: block;*/
     padding-top: 0px;
     margin-top: 0px;
     text-align: center;
 }
 
 #contact {
-    /*border-top: 1px solid black;*/
     width: 100%;
     min-height: 250px;
-    /*display: block;*/
 }
 
 #about {
-    /*border-top: 1px solid black;*/
     width: 100%;
     min-height: 410px;
-    /*height: 230px;*/
     /*display: block;*/
 }
 
 #hobby {
-    /*border-top: 1px solid black;*/
     width: 100%;
     min-height: 100px;
-    /*display: block;*/
     text-align: center;
 }
 
@@ -109,7 +91,6 @@ h5 {
 }
 
 #name {
-    /*border-top: 1px solid black;*/
     width: 100%;
     min-height: 100px;
     /*display: block;*/
@@ -140,14 +121,6 @@ img {
 hr {
     border-top: 1.5px solid #F2B90C;
 }
-
-
-/*.date {
-    width: 50px;
-    margin: 0px;
-    border: 1px solid black;
-}
-*/
 
 .details {
     width: 70%;
@@ -225,7 +198,6 @@ ul span.details {
 .fa-circle {
     color: #F2B90C;
     font-size: 10px;
-    /*display: none;*/
     border: 0px;
     box-shadow: none;
     display: inline-block;
@@ -268,7 +240,6 @@ ul span.details {
     .fa-circle {
         color: #F2B90C;
         font-size: 10px;
-        /*display: none;*/
         border: 0px;
         box-shadow: none;
         display: inline-block;
