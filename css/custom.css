@@ -141,10 +141,13 @@ hr {
     border-top: 1.5px solid #F2B90C;
 }
 
-.date {
-    width: 20%;
+
+/*.date {
+    width: 50px;
     margin: 0px;
+    border: 1px solid black;
 }
+*/
 
 .details {
     width: 70%;
@@ -207,13 +210,13 @@ ul {
 
 ul span.date {
     display: inline-block;
-    width: 15%;
+    width: 13%;
     padding: 2px;
     vertical-align: top;
 }
 
 ul span.details {
-    width: 80%;
+    width: 75%;
     padding: 2px;
     display: inline-block;
 }
@@ -222,9 +225,15 @@ ul span.details {
 .fa-circle {
     color: #F2B90C;
     font-size: 10px;
-    display: none;
+    /*display: none;*/
     border: 0px;
     box-shadow: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.reference {
+    padding-left: 5%;
 }
 
 
@@ -248,11 +257,22 @@ ul span.details {
         min-height: auto;
     }
     ul span.date {
-        width: 100% !important;
+        width: 90% !important;
         display: block;
         text-align: left;
     }
     ul span.details {
         width: 100%;
+    }
+    .fa-dot-circle,
+    .fa-circle {
+        color: #F2B90C;
+        font-size: 10px;
+        /*display: none;*/
+        border: 0px;
+        box-shadow: none;
+        display: inline-block;
+        vertical-align: top;
+        display: none !important;
     }
 }
